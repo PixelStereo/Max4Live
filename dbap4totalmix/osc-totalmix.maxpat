@@ -31,6 +31,35 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 440.0, 69.0, 203.0, 18.0 ],
+					"text" : "/setSubmix 3., /1/volume1 0.235849"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.8, 0.324162, 0.46319, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 185.0, 92.0, 158.0, 22.0 ],
+					"text" : "timebasedqueue 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-71",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
@@ -3811,7 +3840,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 243.0, 78.0, 50.0, 20.0 ]
+					"patching_rect" : [ 251.0, 63.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -4215,7 +4244,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 185.0, 78.0, 48.0, 20.0 ],
+					"patching_rect" : [ 185.0, 63.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -4311,6 +4340,24 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-64", 0 ]
 				}
 
@@ -4356,6 +4403,13 @@
 				"name" : "spat-channel.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/osc-totalmix",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "timebasedqueue.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/clippings/span.misc",
+				"patcherrelativepath" : "../span/max-package/clippings/span.misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
