@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 526.0, 129.0, 834.0, 577.0 ],
+		"rect" : [ 2192.0, 375.0, 834.0, 577.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.5, 535.0, 555.0, 20.0 ],
-					"presentation_rect" : [ 216.5, 535.0, 0.0, 0.0 ],
 					"text" : "DETECTER CHAQUE DECLENCHEMENT DE CLIP POUR LANCER LES MOUVEMENtS ASSOCIES"
 				}
 
@@ -91,7 +90,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.5, 515.0, 555.0, 20.0 ],
-					"presentation_rect" : [ 215.5, 517.0, 0.0, 0.0 ],
 					"text" : "RECUPERER LES # DE CHAQUE CLIP POUR  CREER UN DICT DE TOUTES LES INTERACTIONS"
 				}
 
@@ -106,7 +104,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.5, 495.0, 570.0, 20.0 ],
-					"presentation_rect" : [ 478.5, 341.0, 0.0, 0.0 ],
 					"text" : "RECUPERER LES VALEURS DE PAN DE CHAQUE PISTE POUR LA POSITION X DE CHAQUE PISTE"
 				}
 
@@ -135,7 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 459.0, 339.0, 142.0, 18.0 ],
-					"text" : "src_position 1 6.7 8."
+					"text" : "src_position 1 20.7 4.9"
 				}
 
 			}
@@ -163,7 +160,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 397.5, 15.0, 39.0, 240.0 ],
-					"presentation_rect" : [ 399.0, 13.0, 0.0, 0.0 ],
 					"size" : 1.0
 				}
 
@@ -319,8 +315,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 79.0, 21.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 76.0, 18.0, 0.0, 0.0 ]
+									"patching_rect" : [ 79.0, 21.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -2032,7 +2027,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "list" ],
 									"patching_rect" : [ 435.0, 15.0, 25.0, 25.0 ]
 								}
 
