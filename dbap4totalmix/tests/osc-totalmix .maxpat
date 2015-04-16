@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2015.0, 97.0, 950.0, 409.0 ],
+		"rect" : [ 730.0, 97.0, 950.0, 409.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 3017.0, 108.0, 790.0, 697.0 ],
+						"rect" : [ 890.0, 108.0, 790.0, 697.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3783,7 +3783,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 113.5, 10.0, 25.0, 25.0 ]
 												}
 
@@ -4603,7 +4603,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "int" ],
+									"outlettype" : [ "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -5933,7 +5933,7 @@
 									"setminmax" : [ 0.0, 255.0 ],
 									"setstyle" : 1,
 									"settype" : 0,
-									"size" : 6
+									"size" : 25
 								}
 
 							}
@@ -6527,7 +6527,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6736,7 +6736,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7238,7 +7238,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "var.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
