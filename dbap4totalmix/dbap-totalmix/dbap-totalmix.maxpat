@@ -40,7 +40,7 @@
 					"patching_rect" : [ 6.5, 289.0, 161.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 6.5, 124.0, 131.0, 47.0 ],
+					"presentation_rect" : [ 6.5, 124.0, 133.0, 47.0 ],
 					"text" : "listen OSC on 7002 for use with dedicated M4L device"
 				}
 
@@ -58,7 +58,7 @@
 					"patching_rect" : [ 8.5, 124.0, 160.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 6.5, 308.0, 131.0, 60.0 ],
+					"presentation_rect" : [ 6.5, 308.0, 134.0, 60.0 ],
 					"text" : "Destinations 0 and 7 are aren't plugged, these are used to have no sound"
 				}
 
@@ -93,7 +93,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 421.75, 95.0, 74.0, 37.0 ],
-					"presentation_rect" : [ 434.25, 103.0, 0.0, 0.0 ],
 					"text" : "This is the view"
 				}
 
