@@ -1,4 +1,4 @@
-#dbap-totalmix
+#dbap4totalmix
 ---
 Sound spatialisation with RME soundcards using Totalmix software.
 This application plugs DBAP implementation from Jamoma 0.6 to Totalmix submix control through OSC messages.
