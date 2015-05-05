@@ -275,7 +275,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 227.5, 192.0, 32.5, 20.0 ],
-													"text" : "- 1."
+													"text" : "+ 1."
 												}
 
 											}
@@ -605,7 +605,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 227.5, 192.0, 32.5, 20.0 ],
-													"text" : "- 1."
+													"text" : "+ 1."
 												}
 
 											}
@@ -935,7 +935,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 227.5, 192.0, 32.5, 20.0 ],
-													"text" : "- 1."
+													"text" : "+ 1."
 												}
 
 											}
@@ -1265,7 +1265,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 227.5, 192.0, 32.5, 20.0 ],
-													"text" : "- 1."
+													"text" : "+ 1."
 												}
 
 											}
@@ -1607,7 +1607,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 227.5, 192.0, 32.5, 20.0 ],
-													"text" : "- 1."
+													"text" : "+ 1."
 												}
 
 											}
@@ -1937,7 +1937,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 227.5, 192.0, 32.5, 20.0 ],
-													"text" : "- 1."
+													"text" : "+ 1."
 												}
 
 											}
@@ -2267,7 +2267,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 227.5, 192.0, 32.5, 20.0 ],
-													"text" : "- 1."
+													"text" : "+ 1."
 												}
 
 											}
@@ -2612,7 +2612,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 227.5, 192.0, 32.5, 20.0 ],
-													"text" : "- 1."
+													"text" : "+ 1."
 												}
 
 											}
@@ -3749,6 +3749,33 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "dbap_src.model.maxpat",
+				"bootpath" : "/Users/reno/Documents/GITs/dbap4totalmix/max",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.dbap.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
