@@ -1,6 +1,6 @@
-# PixelStereo tools
+# Max4Live
 
-Small tools of Pixel Stereo, each in its folder, each with its whole history (its commits, authors and dates, rewritten into its folder).
+Max for Live devices and small tools of Pixel Stereo, each in its folder, each with its whole history (its commits, authors and dates, rewritten into its folder).
 They were separate repositories:
 
 | Folder | What | Was |
