@@ -13,6 +13,28 @@
         "boxes": [
             {
                 "box": {
+                    "color": [ 0.317647, 0.654902, 0.976471, 1.0 ],
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 387.0, 287.0, 138.0, 22.0 ],
+                    "text": "udpsend 127.0.0.1 8001"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 387.0, 254.0, 165.0, 22.0 ],
+                    "text": "/eos/out/event/cue/1/22.5/fire"
+                }
+            },
+            {
+                "box": {
                     "color": [ 0.439216, 0.74902, 0.254902, 1.0 ],
                     "fontsize": 14.0,
                     "id": "obj-18",
@@ -522,6 +544,12 @@
                     "destination": [ "obj-53", 0 ],
                     "order": 0,
                     "source": [ "obj-55", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "source": [ "obj-6", 0 ]
                 }
             },
             {
